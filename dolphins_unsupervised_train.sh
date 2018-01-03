@@ -1,0 +1,1 @@
+python -m graphsage.unsupervised_train --train_prefix ./input_data/dolphins_40_nw --model graphsage_mean --save_embeddings False --batch_size 64 --validation_batch_size 64 --max_total_steps 50 --validate_iter 10

@@ -1,0 +1,1 @@
+python -m graphsage.unsupervised_train --isTrain False  --train_prefix dolphins_40_nw --testfile_prefix /home/wangyun/repos/GraphSAGE/input_data/dolphins_40_nw --model graphsage_mean --save_embeddings True --batch_size 64 --validation_batch_size 64 --max_total_steps 50 --validate_iter 10
